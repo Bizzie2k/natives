@@ -10,7 +10,7 @@ void GIVE_WEAPON_TO_PED(Ped ped, Hash weaponHash, int ammoCount, BOOL isHidden, 
 
 ```
 isHidden - ????  
-All weapon names (add to the list if something is missing), use GAMEPLAY::GET_HASH_KEY((char *)weaponNames[i]) to get get the hash:  
+All weapon names (add to the list if something is missing), use MISC::GET_HASH_KEY((char *)weaponNames[i]) to get get the hash:  
 static LPCSTR weaponNames[] = {  
 	"WEAPON_KNIFE", "WEAPON_NIGHTSTICK", "WEAPON_HAMMER", "WEAPON_BAT", "WEAPON_GOLFCLUB",  
 	"WEAPON_CROWBAR", "WEAPON_PISTOL", "WEAPON_COMBATPISTOL", "WEAPON_APPISTOL", "WEAPON_PISTOL50",  
